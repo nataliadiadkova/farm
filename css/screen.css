@@ -135,7 +135,7 @@ footer .title { font-size: 12px; color: #fff; font-family: "Roboto"; font-weight
 .item-section .also-choose .items-wrapper { display: flex; justify-content: space-between; flex-direction: row; flex-wrap: wrap; }
 
 .catalog { font-family: "Roboto"; }
-.catalog .title { font-weight: 600; text-transform: uppercase; color: #c; font-size: 18px; margin-bottom: 18px; display: flex; justify-content: center; flex-basis: 100%; max-width: 100%; margin-top: 24px; }
+.catalog .title { font-weight: 600; text-transform: uppercase; color: #120045; font-size: 18px; margin-bottom: 18px; display: flex; justify-content: center; flex-basis: 100%; max-width: 100%; margin-top: 24px; }
 .catalog .catalog-item { margin-bottom: 18px; }
 .catalog .catalog-item ul li { margin-bottom: 10px; border-bottom: 1px solid #e8e8e8; padding-bottom: 8px; display: flex; align-items: center; }
 .catalog .catalog-item ul li span { margin-left: 16px; margin-right: 12px; width: 26px; }
@@ -162,14 +162,15 @@ footer .title { font-size: 12px; color: #fff; font-family: "Roboto"; font-weight
 
 .personal-cabinet .cabinet { padding-bottom: 8px; border-bottom: 1px solid #e8e8e8; }
 .personal-cabinet .cabinet h3 { display: flex; align-items: center; }
-.personal-cabinet .cabinet h3 img { margin-left: 6px; margin-right: 16px; }
+.personal-cabinet .cabinet h3 img { margin-left: 10px; margin-right: 10px; }
 .personal-cabinet .title { border: none; margin-top: 8px; }
 
 .enter { font-family: "Roboto"; }
-.enter .title { font-weight: 400; color: #2a2a2a; font-size: 16px; padding-bottom: 18px; display: flex; justify-content: flex-start; flex-basis: 100%; max-width: 100%; margin-top: 12px; }
+.enter .title { font-weight: 600; text-transform: uppercase; color: #120045; font-size: 18px; margin-bottom: 18px; display: flex; justify-content: center; flex-basis: 100%; max-width: 100%; margin-top: 24px; }
 .enter .enter-form form { display: flex; flex-direction: column; align-items: center; }
 .enter .enter-form form div { display: flex; flex-direction: row; margin-top: 30px; margin-bottom: 30px; /* Hide the browser's default checkbox */ /* Create a custom checkbox */ /* On mouse-over, add a grey background color */ /* When the checkbox is checked, add a blue background */ /* Create the checkmark/indicator (hidden when not checked) */ /* Show the checkmark when checked */ /* Style the checkmark/indicator */ }
 .enter .enter-form form div .container { display: block; position: relative; padding-left: 30px; margin-bottom: 12px; cursor: pointer; font-size: 16px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; text-align: center; }
+.enter .enter-form form div .container span { text-decoration: underline; }
 .enter .enter-form form div .container input { position: absolute; opacity: 0; cursor: pointer; }
 .enter .enter-form form div .checkmark { position: absolute; top: 0; left: 10px; height: 8px; width: 8px; background-color: #fff; border: 2px solid #0000ff; }
 .enter .enter-form form div .container:hover input ~ .checkmark { background-color: #fff; }
@@ -177,8 +178,9 @@ footer .title { font-size: 12px; color: #fff; font-family: "Roboto"; font-weight
 .enter .enter-form form div .checkmark:after { content: ""; position: absolute; display: none; }
 .enter .enter-form form div .container input:checked ~ .checkmark:after { display: block; }
 .enter .enter-form form div .container .checkmark:after { left: 2px; top: 0px; width: 3px; height: 5px; border: solid #230056; border-width: 0 1px 1px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
-.enter .enter-form form .btn-enter { border: none; padding-top: 0; border-bottom: none; width: 184px; padding-left: 20px; height: 53px; padding: 0; font-size: 16px; color: #fff; text-transform: uppercase; letter-spacing: 1.5px; background: linear-gradient(to top, #020035, #310064); margin-bottom: 40px; }
-.enter .enter-form form .input { height: 28px; border: none; padding-top: 28px; border-bottom: 2px solid #aeaeae; width: 90%; padding-left: 20px; }
+.enter .enter-form form .btn-enter { text-decoration: none; text-transform: uppercase; height: 42px; width: 223px; display: flex; justify-content: center; align-items: center; font-family: "Roboto"; font-weight: 600; color: #ffffff; transition: 0.3s ease; font-weight: 400; font-size: 18px; background-color: #3e3bac; box-shadow: 2px 2px 2px #200053; border: none; margin-bottom: 40px; }
+.enter .enter-form form .btn-enter:hover { box-shadow: none; }
+.enter .enter-form form .input { height: 28px; border: none; padding-top: 28px; border-bottom: 2px solid #aeaeae; width: 93%; padding-left: 20px; }
 .enter .enter-form form .input::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #aeaeae; font-style: italic; font-size: 16px; }
 .enter .enter-form form .input::-moz-placeholder { /* Firefox 19+ */ color: #aeaeae; font-style: italic; font-size: 16px; }
 .enter .enter-form form .input:-ms-input-placeholder { /* IE 10+ */ color: #aeaeae; font-style: italic; font-size: 16px; }

@@ -634,7 +634,7 @@ footer {
     .title {
         font-weight: 600;
         text-transform: uppercase;
-        color: #c;
+        color: #120045;
         font-size: 18px;
         margin-bottom: 18px;
         display: flex;
@@ -791,8 +791,8 @@ footer {
             align-items: center;
 
             img {
-                margin-left: 6px;
-                margin-right: 16px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
     }
@@ -809,16 +809,16 @@ footer {
     font-family: "Roboto";
 
     .title {
-        font-weight: 400;
-        color: #2a2a2a;
-        font-size: 16px;
-        padding-bottom: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #120045;
+        font-size: 18px;
+        margin-bottom: 18px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-basis: 100%;
         max-width: 100%;
-        margin-top: 12px;
-        // border-bottom: 1px solid #ddd;
+        margin-top: 24px;
     }
 
     .enter-form {
@@ -845,6 +845,10 @@ footer {
                     -ms-user-select: none;
                     user-select: none;
                     text-align: center;
+
+                    span {
+                        text-decoration: underline;
+                    }
                 }
                 
                 /* Hide the browser's default checkbox */
@@ -902,19 +906,27 @@ footer {
             }
 
             .btn-enter {
-                border: none;
-                padding-top: 0;
-                border-bottom: none;
-                width: 184px;
-                padding-left: 20px;
-                height: 53px;
-                padding: 0;
-                font-size: 16px;
-                color: #fff;
+                text-decoration: none;
                 text-transform: uppercase;
-                letter-spacing: 1.5px;
-                background: linear-gradient(to top, #020035, #310064);
+                height: 42px;
+                width: 223px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $roboto-font-family;
+                font-weight: $roboto-font-weight-bold;
+                color: #ffffff;
+                transition: 0.3s ease;
+                font-weight: 400;
+                font-size: 18px;
+                background-color: #3e3bac;
+                box-shadow: 2px 2px 2px #200053;
+                border: none;
                 margin-bottom: 40px;
+
+                &:hover {
+                    box-shadow: none;
+                }
             }
 
             .input {
@@ -922,7 +934,7 @@ footer {
                 border: none;
                 padding-top: 28px;
                 border-bottom: 2px solid #aeaeae;
-                width: 90%;
+                width: 93%;
                 padding-left: 20px;
 
                 &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
